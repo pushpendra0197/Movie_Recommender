@@ -62,7 +62,7 @@ def recommend(movie_name):
         st.subheader("Movie not in Dataset")
 # Streamlit interfac
 st.title("Welcome to Movie Recommender")
-s= (" Toy Story , Jumanji , Grumpier Old Men")
+s= ("Toy Story , Jumanji , Grumpier Old Men , Waiting to Exhale , Father of the Bride Part II , Heat , Sabrina , Tom and Huck , Sudden Death")
 st.sidebar.markdown(s)
 movie_name=st.text_input("Enter Movie Name")
 button = st.button("Click For Recommendation")
